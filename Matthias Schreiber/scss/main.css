@@ -20,6 +20,50 @@ body {
   background-color: white;
 }
 
+.btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.btn-div a {
+  color: #fafafa;
+}
+
+.btn-div .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #49bd5a;
+  -webkit-box-shadow: 2px 2px 5px #888888;
+          box-shadow: 2px 2px 5px #888888;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -237,7 +281,7 @@ main .main-section-1 {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
 
@@ -280,7 +324,7 @@ main .main-section-2 {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  padding: 40px 120px;
+  padding: 40px 25%;
   line-height: 30px;
 }
 
@@ -299,7 +343,7 @@ main .main-section-3 {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  padding: 40px 120px;
+  padding: 40px 25%;
   line-height: 30px;
 }
 
@@ -314,6 +358,10 @@ main .main-section-4 {
   /* Style the buttons that are used to open and close the faq-page body */
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   /* Style the faq-page panel. Note: hidden by default */
+}
+
+main .main-section-4 .section-3-h3 {
+  font-size: 32px;
 }
 
 main .main-section-4 .faq-heading {
@@ -401,8 +449,12 @@ main .main-section-5 {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  padding: 40px 120px;
+  padding: 40px 25%;
   line-height: 30px;
+}
+
+main .main-section-5 .section-3-h3 {
+  font-size: 32px;
 }
 
 main .main-section-6 {
@@ -420,8 +472,12 @@ main .main-section-6 {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  padding: 40px 120px;
+  padding: 40px 25%;
   line-height: 30px;
+}
+
+main .main-section-6 .section-3-h3 {
+  font-size: 32px;
 }
 
 main .main-section-6 .section-6-list {
@@ -443,6 +499,12 @@ main .main-section-6 .section-6-list li {
 main .main-section-7 {
   background-color: #f1f1f1;
   padding: 50px 0;
+}
+
+main .main-section-7 .testimonial-imgage {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 
 main .main-section-7 .snip1533 {
@@ -516,7 +578,7 @@ main .main-section-7 .snip1533 blockquote {
 
 main .last-section {
   background-color: #49bd5a;
-  height: 700px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -531,8 +593,13 @@ main .last-section {
 }
 
 main .last-section h2 {
-  font-size: xx-large;
+  font-size: x-large;
   color: #f1f1f1;
+}
+
+main .last-section .click-here {
+  font-size: 40px;
+  cursor: pointer;
 }
 
 footer {
